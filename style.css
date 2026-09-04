@@ -35,5 +35,22 @@
     width: 130px;
     height: 130px;
     min-width: 130px;
+    .doctor-card .doctor-avatar {
+  width: 140px !important;
+  height: 140px !important;
+  min-width: 140px !important;
+  max-width: 140px !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  flex-shrink: 0 !important;
+}
+
+.doctor-card .doctor-avatar img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
   }
 }
