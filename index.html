@@ -1,158 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Siddhant Multispeciality Hospital | Kanker</title>
-<meta name="description" content="Siddhant Multispeciality Hospital, Bhandaripara, Kanker, Chhattisgarh. OPD 10 AM–2 PM and 5 PM–10 PM.">
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,Helvetica,sans-serif;color:#183f46;background:#f7fbfc;line-height:1.6}
-header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #0001}
-.nav{max-width:1100px;margin:auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.logo{height:72px;max-width:300px;object-fit:contain}
-nav a{color:#183f46;text-decoration:none;margin-left:18px;font-weight:700;font-size:14px}
-.hero{background:linear-gradient(135deg,#e8f8fa,#fff);padding:70px 20px}
-.wrap{max-width:1100px;margin:auto}
-.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
-.badge{display:inline-block;background:#d8f2f4;color:#18757d;padding:7px 13px;border-radius:30px;font-weight:700;margin-bottom:15px}
-h1{font-size:48px;line-height:1.1;margin-bottom:15px}
-.hero p{font-size:19px;color:#46656a;margin-bottom:25px}
-.btn{display:inline-block;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:700;margin:5px 8px 5px 0}
-.primary{background:#188b95;color:white} .secondary{background:#fff;color:#188b95;border:2px solid #188b95}
-.card{background:#fff;border-radius:16px;padding:28px;box-shadow:0 8px 30px #174b5512}
-.info-card h3{margin-bottom:10px}
-section{padding:60px 20px}
-.section-title{text-align:center;margin-bottom:35px}
-.section-title h2{font-size:32px}
-.section-title p{color:#647b80}
-.doctor{display:grid;grid-template-columns:130px 1fr;gap:25px;align-items:center;max-width:750px;margin:auto}
-.avatar{width:120px;height:120px;border-radius:50%;background:#e0f5f6;display:flex;align-items:center;justify-content:center;font-size:45px}
-.depts{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-.dept{background:#fff;padding:24px;border-radius:14px;box-shadow:0 5px 20px #0000000d;font-weight:700}
-.dept span{font-size:28px;display:block;margin-bottom:8px}
-.timing{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:700px;margin:auto}
-.timebox{text-align:center;background:#fff;padding:25px;border-radius:14px;box-shadow:0 5px 20px #0000000d}
-.timebox strong{font-size:25px;display:block;color:#18757d}
-.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}
-footer{background:#153f46;color:#fff;text-align:center;padding:28px 20px}
-.chat{position:fixed;right:20px;bottom:20px;z-index:20}
-.chat button{border:0;background:#188b95;color:#fff;border-radius:50%;width:60px;height:60px;font-size:26px;cursor:pointer;box-shadow:0 5px 20px #0003}
-.chatbox{display:none;position:absolute;right:0;bottom:72px;width:320px;background:#fff;border-radius:15px;box-shadow:0 10px 40px #0003;overflow:hidden}
-.chathead{background:#188b95;color:#fff;padding:14px;font-weight:700}
-.messages{height:260px;overflow:auto;padding:15px;font-size:14px}
-.msg{padding:9px 11px;border-radius:10px;margin:7px 0;max-width:90%;background:#eef7f8}
-.user{margin-left:auto;background:#d7eff1}
-.quick{display:flex;flex-wrap:wrap;gap:6px;padding:10px;border-top:1px solid #ddd}
-.quick button{border:1px solid #188b95;background:#fff;color:#188b95;border-radius:20px;padding:7px 9px;cursor:pointer}
-@media(max-width:800px){.hero-grid,.contact{grid-template-columns:1fr}.depts{grid-template-columns:1fr 1fr}nav{display:none}h1{font-size:36px}.doctor{grid-template-columns:1fr;text-align:center}.avatar{margin:auto}}
-@media(max-width:480px){.depts,.timing{grid-template-columns:1fr}.logo{height:58px;max-width:245px}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddhant Multispecialty Hospital | Kanker</title>
+  <meta name="description" content="Siddhant Multispecialty Hospital, Kanker — General Medicine, Pulmonology, Surgery, Orthopaedics, Gynaecology, Dialysis, Pathology, Ultrasonography and Emergency Services.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="nav">
-    <img class="logo" src="data:image/png;base64,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" alt="Siddhant Multispeciality Hospital Kanker Logo">
-    <nav>
-      <a href="#about">About</a><a href="#doctor">Doctor</a><a href="#departments">Departments</a><a href="#contact">Contact</a>
-    </nav>
+  <div class="topbar">
+    <div>24×7 Emergency & Inpatient Services</div>
+    <div>
+      <a href="tel:+919343821032">Call: +91 93438 21032</a>
+      <a href="https://wa.me/919343821032" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
   </div>
-</header>
 
-<section class="hero">
-<div class="wrap hero-grid">
-  <div>
-    <span class="badge">🏥 Multispeciality Healthcare</span>
-    <h1>Siddhant Multispeciality Hospital</h1>
-    <p>Compassionate healthcare and multispeciality medical services in Kanker, Chhattisgarh.</p>
-    <a class="btn primary" href="tel:+919343821032">📞 Call Now</a>
-    <a class="btn secondary" href="https://wa.me/919343821032" target="_blank">💬 WhatsApp</a>
-  </div>
-  <div class="card info-card">
-    <h3>📍 Hospital Address</h3><p>Bhandaripara, Kanker, Chhattisgarh, India</p>
-    <br><h3>🕐 OPD Timings</h3>
-    <p><b>10:00 AM – 2:00 PM</b><br><b>5:00 PM – 10:00 PM</b></p>
-  </div>
-</div>
-</section>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img src="logo.jpeg" alt="Siddhant Multispecialty Hospital logo">
+        <div>
+          <strong>SIDDHANT</strong>
+          <span>MULTISPECIALTY HOSPITAL</span>
+          <small>KANKER</small>
+        </div>
+      </a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#doctor">Doctor</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a class="appointment" href="tel:+919343821032">Book Appointment</a>
+      </nav>
+    </div>
+  </header>
 
-<section id="about">
-<div class="wrap">
-<div class="section-title"><h2>About Our Hospital</h2><p>Quality healthcare with compassion.</p></div>
-<div class="card"><p><b>Siddhant Multispeciality Hospital</b> is located at Bhandaripara, Kanker, Chhattisgarh. We provide outpatient and multispeciality healthcare services with a focus on accessible and patient-centered care.</p></div>
-</div>
-</section>
+  <main>
+    <section id="home" class="hero">
+      <img src="hospital-building.jpeg" alt="Siddhant Multispecialty Hospital, Kanker">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">COMPASSION • CARE • COMMITMENT</p>
+        <h1>Quality Healthcare<br><span>Close to You</span></h1>
+        <p>Trusted multispecialty care for you and your family in Kanker.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="tel:+919343821032">Call Now</a>
+          <a class="btn light" href="#services">Our Services</a>
+        </div>
+      </div>
+    </section>
 
-<section id="doctor">
-<div class="wrap">
-<div class="section-title"><h2>Our Doctor</h2><p>Medical care from an experienced physician.</p></div>
-<div class="card doctor">
-<div class="avatar">👨‍⚕️</div>
-<div><h2>Dr. M. Nageshwara Rao</h2><p><b>DNB – General Medicine</b></p><p>Specialization: General Medicine</p></div>
-</div>
-</div>
-</section>
+    <section class="quick-cards">
+      <div class="container cards">
+        <div class="quick-card"><b>24×7</b><span>Emergency Care</span></div>
+        <div class="quick-card"><b>Multi</b><span>Specialty Services</span></div>
+        <div class="quick-card"><b>Expert</b><span>Medical Care</span></div>
+        <div class="quick-card"><b>Modern</b><span>Diagnostics</span></div>
+      </div>
+    </section>
 
-<section id="departments">
-<div class="wrap">
-<div class="section-title"><h2>Departments & Services</h2><p>Our listed specialties and hospital services.</p></div>
-<div class="depts">
-<div class="dept"><span>🩺</span>General Medicine</div>
-<div class="dept"><span>🔬</span>General Surgery</div>
-<div class="dept"><span>👶</span>Pediatrics</div>
-<div class="dept"><span>🤰</span>Gynecology & Obstetrics</div>
-<div class="dept"><span>🦴</span>Orthopedics</div>
-<div class="dept"><span>🚑</span>Emergency Care</div>
-<div class="dept"><span>🏥</span>ICU</div>
-</div>
-</div>
-</section>
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT OUR HOSPITAL</p>
+          <h2>Healthcare with a personal touch</h2>
+          <p>Siddhant Multispecialty Hospital is committed to providing accessible, compassionate and dependable healthcare services to the people of Kanker and surrounding areas.</p>
+          <p>Our team provides medical consultation, diagnostic support, inpatient care and emergency services under one roof.</p>
+          <a class="text-link" href="#contact">Contact the hospital →</a>
+        </div>
+        <div class="info-box">
+          <h3>Hospital Information</h3>
+          <p><b>Hospital:</b> Siddhant Multispecialty Hospital</p>
+          <p><b>Location:</b> Radhaswami Satsang Bhawan ke baju mein, Bhandaripara, Kanker</p>
+          <p><b>Phone:</b> <a href="tel:+919343821032">9343821032</a></p>
+          <p><b>Emergency:</b> Available 24×7</p>
+        </div>
+      </div>
+    </section>
 
-<section>
-<div class="wrap">
-<div class="section-title"><h2>OPD Timings</h2><p>Please contact the hospital to confirm timings before visiting.</p></div>
-<div class="timing">
-<div class="timebox"><span>☀️</span><strong>10 AM – 2 PM</strong><p>Morning OPD</p></div>
-<div class="timebox"><span>🌙</span><strong>5 PM – 10 PM</strong><p>Evening OPD</p></div>
-</div>
-</div>
-</section>
+    <section id="services" class="section muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">OUR SERVICES</p>
+          <h2>Specialized care for your needs</h2>
+          <p>Comprehensive medical and diagnostic services.</p>
+        </div>
+        <div class="service-grid">
+          <article><div class="icon">✚</div><h3>General Medicine</h3><p>Consultation and treatment for common and complex medical conditions.</p></article>
+          <article><div class="icon">◉</div><h3>Pulmonology</h3><p>Care and evaluation for respiratory and lung-related conditions.</p></article>
+          <article><div class="icon">⚕</div><h3>General Surgery</h3><p>Surgical consultation and inpatient surgical care.</p></article>
+          <article><div class="icon">🦴</div><h3>Orthopaedics</h3><p>Assessment and treatment of bone, joint and musculoskeletal problems.</p></article>
+          <article><div class="icon">♡</div><h3>Gynaecology</h3><p>Women’s health and gynaecological consultation.</p></article>
+          <article><div class="icon">🔬</div><h3>Pathology</h3><p>Laboratory diagnostic support for accurate medical evaluation.</p></article>
+          <article><div class="icon">💧</div><h3>Dialysis</h3><p>Dialysis support with patient-focused care.</p></article>
+          <article><div class="icon">⌁</div><h3>Ultrasonography</h3><p>Ultrasound imaging for diagnostic evaluation.</p></article>
+          <article><div class="icon">🚑</div><h3>Emergency & Inpatient</h3><p>Emergency response and inpatient services for patients who need hospital care.</p></article>
+        </div>
+      </div>
+    </section>
 
-<section id="contact">
-<div class="wrap">
-<div class="section-title"><h2>Contact Us</h2><p>We are here to help.</p></div>
-<div class="contact">
-<div class="card"><h3>📍 Address</h3><p>Bhandaripara, Kanker, Chhattisgarh, India</p><br><h3>📞 Phone / WhatsApp</h3><p>+91 9304382103</p></div>
-<div class="card"><h3>🗺️ Find Us</h3><p>Search for Siddhant Multispeciality Hospital, Bhandaripara, Kanker in Google Maps.</p><br><a class="btn primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Siddhant+Multispeciality+Hospital+Bhandaripara+Kanker+Chhattisgarh">📍 Open Google Maps</a></div>
-</div>
-</div>
-</section>
+    <section id="doctor" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">OUR DOCTOR</p>
+          <h2>Experienced medical care</h2>
+        </div>
+        <div class="doctor-card">
+          <div class="doctor-avatar">DR</div>
+          <div>
+            <h3>Dr. M. Nageshwara Rao</h3>
+            <p class="speciality">DNB — General Medicine</p>
+            <p>Medical consultation and management of adult medical conditions.</p>
+            <a class="btn primary small" href="tel:+919343821032">Book Consultation</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<footer>© 2026 Siddhant Multispeciality Hospital, Kanker. All rights reserved.</footer>
+    <section id="gallery" class="section muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">HOSPITAL GALLERY</p>
+          <h2>Our hospital</h2>
+        </div>
+        <div class="gallery">
+          <img src="hospital-building.jpeg" alt="Siddhant Multispecialty Hospital building">
+          <img src="logo.jpeg" alt="Siddhant Multispecialty Hospital logo">
+        </div>
+      </div>
+    </section>
 
-<div class="chat">
-<button onclick="toggleChat()">🤖</button>
-<div class="chatbox" id="chatbox">
-<div class="chathead">Hospital Assistant</div>
-<div class="messages" id="messages"><div class="msg">Namaste! I can answer basic questions about the hospital, departments, doctor and OPD timings.</div></div>
-<div class="quick">
-<button onclick="ask('timing')">OPD Timing</button>
-<button onclick="ask('doctor')">Doctor</button>
-<button onclick="ask('departments')">Departments</button>
-<button onclick="ask('contact')">Contact</button>
-</div>
-</div>
-</div>
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <p class="eyebrow">NEED MEDICAL HELP?</p>
+          <h2>We are here when you need us.</h2>
+          <p>For appointments and hospital enquiries, call us directly.</p>
+        </div>
+        <a class="btn light" href="tel:+919343821032">+91 93438 21032</a>
+      </div>
+    </section>
 
-<script>
-function toggleChat(){const b=document.getElementById('chatbox');b.style.display=b.style.display==='block'?'none':'block';}
-function ask(type){
- const m=document.getElementById('messages');
- const q={timing:'What are the OPD timings?',doctor:'Who is the doctor?',departments:'Which departments are available?',contact:'How can I contact the hospital?'}[type];
- const a={timing:'OPD timing: 10 AM–2 PM and 5 PM–10 PM.',doctor:'Dr. M. Nageshwara Rao — DNB in General Medicine, specializing in General Medicine.',departments:'General Medicine, General Surgery, Pediatrics, Gynecology & Obstetrics, Orthopedics, Emergency Care and ICU.',contact:'Call or WhatsApp: +91 9304382103. Address: Bhandaripara, Kanker, Chhattisgarh, India.'}[type];
- m.innerHTML += '<div class="msg user">'+q+'</div><div class="msg">'+a+'</div>';
- m.scrollTop=m.scrollHeight;
-}
-</script>
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">CONTACT US</p>
+          <h2>Visit Siddhant Multispecialty Hospital</h2>
+          <div class="contact-item"><b>📍 Address</b><span>Radhaswami Satsang Bhawan ke baju mein, Bhandaripara, Kanker</span></div>
+          <div class="contact-item"><b>📞 Phone / WhatsApp</b><a href="tel:+919343821032">9343821032</a></div>
+          <div class="contact-item"><b>🚑 Emergency</b><span>24×7 Emergency & Inpatient Services</span></div>
+          <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Radhaswami+Satsang+Bhawan+Bhandaripara+Kanker" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+        <div class="map-box">
+          <div>
+            <div class="map-pin">📍</div>
+            <h3>Siddhant Multispecialty Hospital</h3>
+            <p>Bhandaripara, Kanker</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Radhaswami+Satsang+Bhawan+Bhandaripara+Kanker" target="_blank" rel="noopener">Get Directions →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>Siddhant Multispecialty Hospital</h3>
+        <p>Compassionate healthcare in Kanker.</p>
+      </div>
+      <div><a href="#services">Services</a><a href="#doctor">Doctor</a><a href="#contact">Contact</a></div>
+      <div><a href="tel:+919343821032">+91 93438 21032</a><a href="https://wa.me/919343821032" target="_blank" rel="noopener">WhatsApp</a></div>
+    </div>
+    <div class="copyright">© 2026 Siddhant Multispecialty Hospital. All rights reserved.</div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
