@@ -74,3 +74,23 @@
 }
   }
 }
+.hospital-location {
+    text-align: center;
+    padding: 12px 20px;
+    background: #f5f9ff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hospital-location a {
+    color: #1a5fb4;
+    text-decoration: none;
+}
+
+.hospital-location a:hover {
+    text-decoration: underline;
+}
+
+.hospital-location span {
+    margin-right: 5px;
+}
