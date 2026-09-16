@@ -94,3 +94,45 @@
 .hospital-location span {
     margin-right: 5px;
 }
+/* Phone / WhatsApp को एक ही लाइन में रखने के लिए */
+.phone-contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.phone-contact .contact-icon {
+    flex-shrink: 0;
+}
+
+.phone-contact strong {
+    flex-shrink: 0;
+}
+
+.phone-contact a {
+    white-space: nowrap;
+    color: #0798c4;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Mobile screen */
+@media (max-width: 768px) {
+    .phone-contact {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    .phone-contact strong {
+        font-size: 15px;
+    }
+
+    .phone-contact a {
+        font-size: 15px;
+    }
+}
