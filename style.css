@@ -136,3 +136,43 @@
         font-size: 15px;
     }
 }
+.icu-section {
+    background: #f0f9ff;
+    padding: 40px 20px;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+.icu-content {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.icu-icon {
+    font-size: 60px;
+}
+
+.icu-section h2 {
+    color: #0b6fa4;
+    margin-bottom: 10px;
+}
+
+.icu-section p {
+    color: #444;
+    line-height: 1.7;
+}
+
+.icu-section ul {
+    padding-left: 20px;
+    line-height: 2;
+}
+
+@media (max-width: 600px) {
+    .icu-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
